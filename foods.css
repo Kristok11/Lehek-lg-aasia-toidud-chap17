@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: #666666;
+    background-color: #f9f8;
+    background-image: url("images/dark-wood.jpg");
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4em;
+    margin: 0;
+    padding: 0;
+    
+  }
+  header {
+    height: 130px;
+    background-image: url("images/header.jpg");
+    background-position: center 100px;
+    background-size: contain;
+    margin: auto;
+    position: relative;
+  }
+  
+  nav {
+    background-color: #aeaca8;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .wrapper {
+    width: 900px;
+    margin: 20px auto 20px auto;
+    border: 0px solid #000000;
+    background-color: #ffffff;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 40px;
+  }
+  
+  nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav li a:hover,nav li a.current {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  .food {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  .yakitori-recipe {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .yakitori-recipe h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .yakitori-recipe p {
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
